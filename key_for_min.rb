@@ -6,5 +6,6 @@ def key_for_min_value(name_hash)
     largest = names[val]
     if names[val] < largest
       names[val] = largest
+    end
   end
 end
